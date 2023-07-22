@@ -5,8 +5,7 @@ main {
     flex-grow: 1;
 }
 
-.main {
-}
+
 .main-container {
     margin-top: 10.4rem;
    
@@ -15,15 +14,19 @@ main {
         max-width: 111rem;
     }
 }
-.container {
-}
-.main-top {
-     padding-top: 7.2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+.section__top {
+    
+    
     background-image: url('../../images/png/background-big-img-png.png');
     background-repeat: no-repeat;
     background-position: right -30rem bottom;
+}
+.main-top{
+    padding-top: 7.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 2px solid white;
 }
 .main-top__content {
     padding-bottom: 5.6rem;
@@ -46,4 +49,108 @@ p{
     color: $grey-cl;
 }
 
+}
+
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8rem;
+ 
+    h1{
+        font-size: $h1-fs;
+        line-height: $h1-lh;
+        letter-spacing: $h1-ls;
+        color: $white-cl;
+    }
+
+}
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14rem 3rem;
+    position: relative;
+    padding-bottom: 10rem;
+}
+.cards-content{
+
+    position: relative;
+    right: 10rem;
+    bottom: -32rem;
+    color: $white-cl;
+
+    h4{
+        font-size: $h3-fs;
+        line-height: $h3-lh;
+    }
+    p{
+    
+        font-size: $p-fs;
+        font-weight: $p-fw;
+        
+    }
+    .cards-text{
+        display: flex;
+        padding-top: 0.7rem;
+        gap:2rem ;
+    }
+}
+.cards {
+    width: 54rem;
+    height: 48.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    &:hover{
+        .card-link-wrapper{
+            display:block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: $p-fs ;
+            font-weight: $p-fw;
+            line-height: $p-lh;
+        }
+    }
+}
+.card-1 {
+    background-image: url('../../images/png/DESIGN-PORTFOLIO-img.png');
+   &:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/DESIGN-PORTFOLIO-img.png');
+   }
+}
+.card-link-wrapper {
+    display: none;
+}
+.card-2 {
+    background-image: url('../../images/png/E-LEARNING-LANDING-PAGE-img.png');
+    &:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/E-LEARNING-LANDING-PAGE-img.png');
+    }
+}
+.card-3 {
+    background-image: url('../../images/png/TOD-WEB-APP-img.png');
+    &:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/TOD-WEB-APP-img.png');}
+
+}
+.card-4 {
+    background-image: url('../../images/png/ENTERTAINMENT-WEB-APP-img.png');
+    &:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/ENTERTAINMENT-WEB-APP-img.png');}
+
+}
+.card-5 {
+    background-image: url('../../images/png/MEMORY-GAME-img.png');
+    &:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/MEMORY-GAME-img.png');}
+}
+.card-6 {
+    background-image: url('../../images/png/ART-GALLERY-SHOWCASE-img.png');
+    &:hover{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/png/ART-GALLERY-SHOWCASE-img.png');}
 }

@@ -24,3 +24,45 @@
     height: 3.6rem;
     color: $white-cl;   
 }
+.main-btn {
+    position: relative;
+    text-align: center;
+    font-size: $p-fs;
+    font-weight: $p-fw;
+    line-height: $p-lh;
+    &::before{
+       
+        width: 9rem;
+        position: absolute;
+        display: inline-block;
+        content: '';
+        height: 2px;
+        background-color: $green-cl;
+        width: 100%;
+        bottom: 0;
+        transition: 0.3s;
+        left: 0;
+    }
+    &:hover{
+        color: $green-cl;
+
+    }
+}
+.card-link{
+  text-align: center;
+}
+.card-link:hover{
+    position: relative;
+    &::before{
+       
+        width: 9rem;
+        position: absolute;
+        display: inline-block;
+        content: '';
+        height: 2px;
+        background-color: $green-cl;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
