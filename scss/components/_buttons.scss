@@ -1,7 +1,8 @@
 .header-btn {
     position: relative;
+    padding-left: 5px;
     &::before{
-        
+        width: 10rem;
         position: absolute;
         display: inline-block;
         content: '';
@@ -10,9 +11,11 @@
         width: 100%;
         bottom: 0;
         transition: 0.3s;
+        left: 0;
     }
     &:hover{
         color: $green-cl;
+
     }
 }
 .btn {
