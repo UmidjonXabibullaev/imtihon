@@ -348,7 +348,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1110px;
+  max-width: 1210px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 5rem;
@@ -398,15 +398,12 @@ body {
   color: #fff;
 }
 
-.header {
-  background-image: url("./images/svg/oval");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-}
-
 .header-container {
   position: relative;
+  background-image: url("../../images/png/background-big-img-png.png"), url("../../images/png/background-oval-img-png.png");
+  background-repeat: no-repeat;
+  background-position: left -17rem top 15rem, left 67rem bottom 17rem;
+  height: 80rem;
 }
 
 .header-container__header-top {
@@ -418,7 +415,7 @@ body {
   z-index: 100;
 }
 
-@media screen and (max-width: 833px) {
+@media screen and (max-width: 933px) {
   .header-container__header-top {
     padding-top: 2rem;
     flex-direction: column;
@@ -442,7 +439,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3.2rem;
+  gap: 3.4rem;
 }
 
 .header-content {
@@ -488,7 +485,7 @@ body {
 .header-img-wrapper {
   position: absolute;
   top: 0;
-  right: -10rem;
+  right: -1rem;
   height: 72rem;
   width: 44.5rem;
   background-color: #242424;
@@ -511,7 +508,7 @@ body {
     bottom: 5px;
   }
 }
-@media screen and (max-width: 833px) {
+@media screen and (max-width: 933px) {
   .header-content {
     display: flex;
     justify-content: center;
@@ -539,7 +536,7 @@ body {
     height: 38.3rem;
     width: 17.4rem;
     background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
-    right: 9.5rem;
+    left: 35%;
     top: 0;
   }
   .header-img-wrapper img {
@@ -569,4 +566,40 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+.main-container {
+  margin-top: 10.4rem;
+}
+.main-container hr {
+  width: 100%;
+  max-width: 111rem;
+}
+
+.main-top {
+  padding-top: 7.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: url("../../images/png/background-big-img-png.png");
+  background-repeat: no-repeat;
+  background-position: right -30rem bottom;
+}
+
+.main-top__content {
+  padding-bottom: 5.6rem;
+  color: #fff;
+}
+.main-top__content h3 {
+  font-size: 4.8rem;
+  line-height: 1, 17;
+  letter-spacing: -1.5px;
+}
+.main-top__content p {
+  width: 100%;
+  max-width: 44.5rem;
+  padding-bottom: 6.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #D9D9D9;
 }/*# sourceMappingURL=style.css.map */

@@ -4,3 +4,46 @@
 main {
     flex-grow: 1;
 }
+
+.main {
+}
+.main-container {
+    margin-top: 10.4rem;
+   
+    hr{
+        width: 100%;
+        max-width: 111rem;
+    }
+}
+.container {
+}
+.main-top {
+     padding-top: 7.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url('../../images/png/background-big-img-png.png');
+    background-repeat: no-repeat;
+    background-position: right -30rem bottom;
+}
+.main-top__content {
+    padding-bottom: 5.6rem;
+   color: $white-cl;
+  
+
+   h3{
+    font-size: $h2-fs;
+    line-height: $h2-lh;
+    letter-spacing: $h2-ls;
+}
+p{
+    width: 100%;
+    max-width: 44.5rem; 
+    
+    padding-bottom: 6.6rem;
+    font-size: $p-fs;
+    font-weight: $p-fw;
+    line-height: $p-lh;
+    color: $grey-cl;
+}
+
+}
