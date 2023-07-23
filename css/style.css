@@ -396,6 +396,9 @@ body {
   max-width: 12rem;
   height: 3.6rem;
   color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 .main-btn {
@@ -438,6 +441,24 @@ body {
   width: 100%;
   bottom: 0;
   left: 0;
+}
+
+.card-hidden-link {
+  position: relative;
+}
+.card-hidden-link::before {
+  width: 9rem;
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background-color: #4EE1A0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.card-hidden-link:hover {
+  color: #4EE1A0;
 }
 
 .header-container {
@@ -682,7 +703,7 @@ main {
 .cards-content {
   position: relative;
   right: 10rem;
-  bottom: -32rem;
+  bottom: -30rem;
   color: #fff;
 }
 .cards-content h4 {
@@ -726,6 +747,10 @@ main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/png/DESIGN-PORTFOLIO-img.png");
 }
 
+.card-hidden-link {
+  display: none;
+}
+
 .card-link-wrapper {
   display: none;
 }
@@ -763,4 +788,51 @@ main {
 }
 .card-6:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/png/ART-GALLERY-SHOWCASE-img.png");
+}
+
+@media screen and (max-width: 1050px) {
+  .cards {
+    max-width: 34.2rem;
+    height: 25.3rem;
+  }
+  .cards-content {
+    position: relative;
+    right: inherit;
+    bottom: -20rem;
+  }
+  .card-link {
+    display: none;
+  }
+  .card-hidden-link {
+    display: inline-block;
+    position: relative;
+    right: inherit;
+    bottom: -20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 470px) {
+  .main-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+  }
+  .section-top h1 {
+    font-size: 4rem;
+    font-weight: 1;
+    line-height: -1.14px;
+  }
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 2rem;
+  }
+  .cards {
+    padding-bottom: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

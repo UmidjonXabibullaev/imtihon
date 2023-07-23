@@ -1,4 +1,4 @@
-.header-btn {
+.header-btn{
     position: relative;
     padding-left: 5px;
     &::before{
@@ -15,14 +15,19 @@
     }
     &:hover{
         color: $green-cl;
-
     }
+   
 }
 .btn {
     width: 100%;
     max-width:12rem;
     height: 3.6rem;
-    color: $white-cl;   
+    color: $white-cl;    
+    font-size: $p-fs;
+    font-weight: $p-fw;
+    line-height: $p-lh;
+        
+    
 }
 .main-btn {
     position: relative;
@@ -64,5 +69,24 @@
         width: 100%;
         bottom: 0;
         left: 0;
+    }
+}
+.card-hidden-link{
+    position: relative;
+    &::before{
+       
+        width: 9rem;
+        position: absolute;
+        display: inline-block;
+        content: '';
+        height: 2px;
+        background-color: $green-cl;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    &:hover{
+        color: $green-cl;
+
     }
 }
