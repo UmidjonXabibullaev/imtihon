@@ -722,6 +722,23 @@ body {
   .footer-container {
     width: 450px;
   }
+  .contact-content {
+    font-size: 1.6rem;
+  }
+  .contact-content h2 {
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -1.14px;
+  }
+  .form-control input {
+    width: 34.3rem;
+    height: 4.3rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 body {
   background-color: #151515;
