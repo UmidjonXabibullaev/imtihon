@@ -2,6 +2,11 @@
     background-color: $dark-grey-cl;
     margin-top: 7.2rem;
 }
+.footer-container{
+    background-image: url('../../images/png/background-big-img-png.png');
+    background-repeat: no-repeat;
+    background-position: left -30% top 80%;
+}
 
 .footer-contact {
     padding-top: 18.4rem;
@@ -9,16 +14,16 @@
     justify-content: space-between;
     align-items: center;
 }
-.contact-content {
-   
+.contact-content {   
     color: $white-cl;
     width: 1005px;
     max-width: 44.5rem ;
     h2{
-        font-size: $h2-fs;
+        font-size: $h1-fs;
         font-weight: 700;
-        line-height: $h2-lh;
-        letter-spacing: $h2-ls;
+        line-height: $h1-lh;
+        letter-spacing: $h1-ls;
+        padding-bottom: 3.5rem;
     }
     p{
         font-size: $p-fs;
@@ -52,6 +57,7 @@
 @media screen and (max-width:470px){
     .footer-container{
         width: 34.5rem;
+        background-position: right -90% bottom 30%;
     }
     .contact-content{
         font-size: $p-mb-fs;

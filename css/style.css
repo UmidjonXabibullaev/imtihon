@@ -602,7 +602,7 @@ body {
   }
   .header-container {
     height: 100rem;
-    background-position: left top 30%, right 20% center;
+    background-position: right -90% top 30%, right 20% center;
   }
   .header-container__header-top {
     padding-top: 2rem;
@@ -671,6 +671,12 @@ body {
   margin-top: 7.2rem;
 }
 
+.footer-container {
+  background-image: url("../../images/png/background-big-img-png.png");
+  background-repeat: no-repeat;
+  background-position: left -30% top 80%;
+}
+
 .footer-contact {
   padding-top: 18.4rem;
   display: flex;
@@ -684,10 +690,11 @@ body {
   max-width: 44.5rem;
 }
 .contact-content h2 {
-  font-size: 4.8rem;
+  font-size: 8.8rem;
   font-weight: 700;
-  line-height: 1, 17;
-  letter-spacing: -1.5px;
+  line-height: 1;
+  letter-spacing: -2.5px;
+  padding-bottom: 3.5rem;
 }
 .contact-content p {
   font-size: 1.8rem;
@@ -718,6 +725,7 @@ body {
 @media screen and (max-width: 470px) {
   .footer-container {
     width: 34.5rem;
+    background-position: right -90% bottom 30%;
   }
   .contact-content {
     font-size: 1.6rem;

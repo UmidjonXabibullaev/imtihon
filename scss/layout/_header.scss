@@ -85,6 +85,7 @@
     }
  }
  @media screen and (max-width:396px){
+
     .header-img-wrapper {
         display: flex;
         justify-content: center;
@@ -107,7 +108,7 @@
       }
       .header-container{
         height: 100rem;
-        background-position: left top 30% , right 20% center;
+        background-position: right -90% top 30% , right 20% center;
       }
       .header-container__header-top{
         padding-top: 2rem;
