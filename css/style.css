@@ -720,10 +720,11 @@ body {
 }
 @media screen and (max-width: 470px) {
   .footer-container {
-    width: 450px;
+    width: 34.5rem;
   }
   .contact-content {
     font-size: 1.6rem;
+    width: 34rem;
   }
   .contact-content h2 {
     font-size: 4rem;
@@ -738,6 +739,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-left: -2rem;
   }
 }
 body {
