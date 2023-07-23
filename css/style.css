@@ -739,6 +739,13 @@ body {
     padding-left: -2rem;
   }
 }
+svg path {
+  transition: 0.3s;
+}
+svg path:hover {
+  fill: #4EE1A0;
+}
+
 body {
   background-color: #151515;
 }

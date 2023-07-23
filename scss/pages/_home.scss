@@ -1,3 +1,11 @@
+svg{
+    path{
+        transition: 0.3s;
+    }
+   path:hover{
+    fill: $green-cl;
+   }
+}
  body{
     background-color: $main-bg;
  }
