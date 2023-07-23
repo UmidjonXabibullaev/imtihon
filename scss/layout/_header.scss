@@ -19,7 +19,7 @@
 
 
 
-.header-nav {
+.site-nav {
    ul{
     display: flex;
     justify-content: center;
@@ -90,9 +90,9 @@
         justify-content: center;
         align-items: center;
         height: 38.3rem;
-        width: 17.4rem;
+        width: 27.4rem;
         background: linear-gradient(180deg, rgba(36, 36, 36, 0.00) 0%, #242424 100%);
-        right: 50% ;
+        left:-3rem;
         top: 0;
         img{
             width: 17.4rem;

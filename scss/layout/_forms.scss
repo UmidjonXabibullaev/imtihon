@@ -1,0 +1,23 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.2rem;
+        font-size: $p-fs;
+        font-weight: $p-fw;
+        line-height: $p-lh;
+    input{
+        width: 44.5rem;
+        height: 4.3rem;
+        background-color:transparent;
+         outline: none;
+         border: 0;
+         border-bottom: 2px solid $white-cl;
+         color: $white-cl;
+        margin-bottom: 3.2rem;
+        padding-left: 1rem;
+    }
+    #MESSAGE{
+        height: 10.7rem;
+    }
+
+}

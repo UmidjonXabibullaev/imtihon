@@ -1,4 +1,4 @@
-.header-btn{
+.site-btn{
     position: relative;
     padding-left: 5px;
     &::before{
@@ -88,5 +88,19 @@
     &:hover{
         color: $green-cl;
 
+    }
+}
+.Submit-btn{
+    width: 14.4rem;
+    height: 3.8rem;
+    border: 0;
+    border-bottom: 2px solid $green-cl;
+    background-color: transparent;
+    color: $white-cl;
+    font-size: $p-fs;
+    font-weight: $p-fw;
+    line-height: $p-lh;
+    &:hover{
+        color: $green-cl;
     }
 }

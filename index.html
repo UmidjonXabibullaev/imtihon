@@ -12,7 +12,7 @@
         <div class="header-container container">
             <div class="header-container__header-top">
                 <img src="./images/svg/site-logo.svg" alt="" class="header-top__site-icon">
-                <nav class="header-nav">
+                <nav class="site-nav">
                     <ul>
                         <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/github-icon.svg" alt="" class="header-icon"></a></li>
                         <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/frontendmentor-icon.svg" alt="" class="header-icon"></a></li>
@@ -26,11 +26,10 @@
                     <h1 class="header-title">Nice to meet you! <br>
                          I’m <span>Adam Keyes. </span></h1>
                     <p>Based in the UK, I’m a front-end developer <br> passionate about building accessible web apps that users love.</p>
-                    <a href="#" class="header-btn btn">CONTACT ME</a>
-                </div>
-               <div class="img-ultra-wrapper">
+                    <a href="#" class="site-btn btn">CONTACT ME</a>
+                    </div>
                 <div class="header-img-wrapper"><img class="header-img" src="./images/png/hero-man.png" alt=""></div>
-               </div>
+             
             </div>
         </div>
     </header>
@@ -194,7 +193,35 @@
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-contact">
+                <div class="contact-content">
+                    <h2>Contact</h2>
+                    <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+                </div>
+                <form action="https://echo.htmlacademy.ru" method="post">
+                    <div class="form-control">
+                        <input id="ism" name="Ism" type="text" placeholder="NAME" required>
+                        <input id="ism" name="Ism" type="email" placeholder="EMAIL" required>
+                        <input id="MESSAGE" name="Ism" type="text" placeholder="MESSAGE" required>
+                    </div>
+                    <button class="Submit-btn "  type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+            <div class="footer-nav">
+                <img src="./images/svg/site-logo.svg" alt="" class="site-logo">
+                <nav class="site-nav">
+                    <ul>
+                        <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/github-icon.svg" alt="" class="header-icon"></a></li>
+                        <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/frontendmentor-icon.svg" alt="" class="header-icon"></a></li>
+                        <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/linkedin-icon.svg" alt="" class="header-icon"></a></li>
+                        <li class="nav-list__item"><a href="#" class="header-link"><img src="./images/svg/twitter-icon.svg" alt="" class="header-icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
     <!-- FOOTER END -->
 </body>
 </html>

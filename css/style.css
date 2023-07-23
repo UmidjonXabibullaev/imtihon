@@ -371,11 +371,11 @@ body {
   font-weight: 700;
   src: url("../fonts/space-grotesk-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-.header-btn {
+.site-btn {
   position: relative;
   padding-left: 5px;
 }
-.header-btn::before {
+.site-btn::before {
   width: 10rem;
   position: absolute;
   display: inline-block;
@@ -387,7 +387,7 @@ body {
   transition: 0.3s;
   left: 0;
 }
-.header-btn:hover {
+.site-btn:hover {
   color: #4EE1A0;
 }
 
@@ -461,6 +461,44 @@ body {
   color: #4EE1A0;
 }
 
+.Submit-btn {
+  width: 14.4rem;
+  height: 3.8rem;
+  border: 0;
+  border-bottom: 2px solid #4EE1A0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.Submit-btn:hover {
+  color: #4EE1A0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.form-control input {
+  width: 44.5rem;
+  height: 4.3rem;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 3.2rem;
+  padding-left: 1rem;
+}
+.form-control #MESSAGE {
+  height: 10.7rem;
+}
+
 .header-container {
   position: relative;
   background-image: url("../../images/png/background-big-img-png.png"), url("../../images/png/background-oval-img-png.png");
@@ -479,7 +517,7 @@ body {
   z-index: 100;
 }
 
-.header-nav ul {
+.site-nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -548,9 +586,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 38.3rem;
-    width: 17.4rem;
+    width: 27.4rem;
     background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
-    right: 50%;
+    left: -3rem;
     top: 0;
   }
   .header-img-wrapper img {
@@ -629,6 +667,60 @@ body {
   }
   .header-img-wrapper {
     bottom: 5px;
+  }
+}
+.footer {
+  background-color: #242424;
+  margin-top: 7.2rem;
+}
+
+.footer-contact {
+  padding-top: 18.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-content {
+  color: #fff;
+  width: 1005px;
+  max-width: 44.5rem;
+}
+.contact-content h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: -1.5px;
+}
+.contact-content p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #fff;
+  margin-top: 9.2rem;
+  padding-top: 4.7rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-content {
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .footer-container {
+    width: 450px;
   }
 }
 body {
